@@ -1,10 +1,11 @@
 ## Cookiecutter Sandbox
 
-This project is `Makefile` set up to test updates to my [Python Template Project](https://github.com/acviana/python-project-template) built using [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/). 
+This project is a `Makefile` set up to test updates to my [Python Template Project](https://github.com/acviana/python-project-template) built using the [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) framework. 
 
-The `Makefile` builds a Python project from a branch from my project template and validates that all the installation and testing steps run without crashing.
+The `Makefile` builds a Python project off a specified branch from my project template and validates that all the installation and testing steps run without crashing.
 
-The idea is that I would developer change to my template in a feature branch and use this project to quickly sanity-check the branch before merging to master.
+The motivation for this project is that Cookiecutter projects are a little tricky to update because you update and template but then have to build the template to make sure everything works.
+This project automates the building and sanity checking to make the template development workflow easier.
 
 ### Setup Instructions
 
