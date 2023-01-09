@@ -12,7 +12,7 @@ This project automates the building and sanity checking to make the template dev
 This project has two dependencies:
 
  - [Poetry](https://python-poetry.org/)
- - Cookiecutter
+ - [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
 
 However, this project (and Cookiecutter) can not be installed in Poetry virtual environment (or possibly a virtualenv as well).
 This is because the target Cookiecutter template uses Poetry for dependency and environment management and you can't nest the virtual environments.
